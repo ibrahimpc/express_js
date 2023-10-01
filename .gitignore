@@ -1,0 +1,63 @@
+node_modules/
+
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore compiled code and build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+*.apk
+*.jar
+dist/
+build/
+target/
+
+# Ignore IDE/Editor-specific files and directories
+.idea/
+.vscode/
+
+# Ignore configuration files with sensitive data (replace with your specific filenames)
+config.js
+config.json
+secrets.json
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore user-specific files and directories
+desktop.ini
+.DS_Store
+
+# Ignore large media files (use Git LFS for handling large files)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+
+# Ignore generated documentation (replace with your specific documentation files)
+docs/
+
+# Ignore database dumps and backup files
+*.sql
+*.dump
+backup/
+
+# Ignore local state files and directories
+.cache/
+.state/
+.temp/
+tmp/
+
+# Ignore IDE backup files
+*~
+
+# Ignore sensitive information in code (replace with specific patterns)
+api-key.js
+api-secret.js
