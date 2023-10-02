@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 require('./src/config/database')
 const my_routes=require('./src/routes')
 const app = express();
-const port = 3001;
+const port = 3002;
 
 
 app.use(bodyParser.json()); // Parse JSON data
